@@ -10,7 +10,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  ace_bottom_navigation_bar: ^0.0.2
+  ace_bottom_navigation_bar: ^0.0.3
 ```
 2. Install it
 
