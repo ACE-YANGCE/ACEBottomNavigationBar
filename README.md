@@ -31,7 +31,12 @@ Now in your Dart code, you can use:
 import 'package:ace_bottom_navigation_bar/ace_bottom_navigation_bar.dart';
 ```
 # ScreenCapture
-![image](https://github.com/ACE-YANGCE/ACEBottomNavigationBar/blob/master/ace_bottom_navigation_bar01.png?raw=true)!
+![image](https://github.com/ACE-YANGCE/ACEBottomNavigationBar/blob/master/ace_bottom_navigation_bar01.png?raw=true)
+
+![image](https://github.com/ACE-YANGCE/ACEBottomNavigationBar/blob/master/ace_bottom_navigation_bar02.png?raw=true)
+
+![image](https://github.com/ACE-YANGCE/ACEBottomNavigationBar/blob/master/ace_bottom_navigation_bar03.png?raw=true)
+
 ## Getting Started
 
 This project is a starting point for a Flutter
