@@ -155,6 +155,8 @@ class _ACEBottomNavigationBar extends State<ACEBottomNavigationBar>
                           image: item.image,
                           imageSelected: item.imageSelected,
                           isProtruding: (protrudingIndex != -1 &&
+                                  widget.type ==
+                                      ACEBottomNavigationBarType.protruding &&
                                   widget.items.indexOf(item) == protrudingIndex)
                               ? true
                               : false,
@@ -185,7 +187,8 @@ class _ACEBottomNavigationBar extends State<ACEBottomNavigationBar>
 
   Widget protrudingWid() {
     Widget proWid;
-    if (widget.items.length % 2 == 0) {
+    if (widget.items.length % 2 == 0 ||
+        widget.type != ACEBottomNavigationBarType.protruding) {
       proWid = Container(width: 0.0, height: 0.0);
     } else {
       proWid = Positioned.fill(
